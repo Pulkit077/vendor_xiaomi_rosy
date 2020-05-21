@@ -84,6 +84,7 @@ LensInfo : Information of the lens present in the module.
 -->
 
 <CameraConfigurationRoot>
+
  <CameraModuleConfig>
     <CameraId>0</CameraId>
     <SensorName>ovt_ov12a10_i</SensorName>
@@ -134,6 +135,7 @@ LensInfo : Information of the lens present in the module.
       <MinFocusDistance>0.1</MinFocusDistance>
     </LensInfo>
   </CameraModuleConfig>
+
   <CameraModuleConfig>
     <CameraId>2</CameraId>
     <SensorName>ovt_ov5675_i</SensorName>

@@ -72,6 +72,7 @@ special_mode_mask has values from this list:
 	"FLASH"
 	"ZOOM_UPSCALE"
 	"ZOOM_DOWNSCALE"
+	"TORCH_CHROMATIX"
 	"OIS_CAPTURE"
 	"ISO_100"
 	"ISO_200"
