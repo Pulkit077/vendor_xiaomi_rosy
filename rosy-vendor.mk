@@ -103,6 +103,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rosy/proprietary/product/etc/CarrierSettings/freedommobile_ca.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/freedommobile_ca.pb \
     vendor/xiaomi/rosy/proprietary/product/etc/CarrierSettings/h3_at.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/h3_at.pb \
     vendor/xiaomi/rosy/proprietary/product/etc/CarrierSettings/h3_gb.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/h3_gb.pb \
+    vendor/xiaomi/rosy/proprietary/product/etc/CarrierSettings/h3_se.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/h3_se.pb \
     vendor/xiaomi/rosy/proprietary/product/etc/CarrierSettings/idea_in.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/idea_in.pb \
     vendor/xiaomi/rosy/proprietary/product/etc/CarrierSettings/idmobile_gb.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/idmobile_gb.pb \
     vendor/xiaomi/rosy/proprietary/product/etc/CarrierSettings/kddi_jp.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/kddi_jp.pb \
@@ -122,6 +123,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rosy/proprietary/product/etc/CarrierSettings/rjio_in.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/rjio_in.pb \
     vendor/xiaomi/rosy/proprietary/product/etc/CarrierSettings/rogers_ca.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/rogers_ca.pb \
     vendor/xiaomi/rosy/proprietary/product/etc/CarrierSettings/sfr_fr.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/sfr_fr.pb \
+    vendor/xiaomi/rosy/proprietary/product/etc/CarrierSettings/shaw_ca.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/shaw_ca.pb \
     vendor/xiaomi/rosy/proprietary/product/etc/CarrierSettings/singtel_sg.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/singtel_sg.pb \
     vendor/xiaomi/rosy/proprietary/product/etc/CarrierSettings/softbank_jp.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/softbank_jp.pb \
     vendor/xiaomi/rosy/proprietary/product/etc/CarrierSettings/solomobile_ca.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/solomobile_ca.pb \
@@ -141,6 +143,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rosy/proprietary/product/etc/CarrierSettings/telia_se.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/telia_se.pb \
     vendor/xiaomi/rosy/proprietary/product/etc/CarrierSettings/telstra_au.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/telstra_au.pb \
     vendor/xiaomi/rosy/proprietary/product/etc/CarrierSettings/telus_ca.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/telus_ca.pb \
+    vendor/xiaomi/rosy/proprietary/product/etc/CarrierSettings/three_dk.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/three_dk.pb \
     vendor/xiaomi/rosy/proprietary/product/etc/CarrierSettings/tim_it.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/tim_it.pb \
     vendor/xiaomi/rosy/proprietary/product/etc/CarrierSettings/tmobile_nl.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/tmobile_nl.pb \
     vendor/xiaomi/rosy/proprietary/product/etc/CarrierSettings/tmobile_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/tmobile_us.pb \
