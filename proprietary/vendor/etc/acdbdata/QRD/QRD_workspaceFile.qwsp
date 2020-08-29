@@ -43,6 +43,47 @@
           <Block name="AUDIO_HIGH_THD_RESAMPLER" dataView_ID="0x000000B4" ID="0x00010719" type="BOTH" />
           <Block name="AUDIO_MFC" ID="0x00010912" type="BOTH" />
         </TOPOLOGY>
+        <TOPOLOGY name="AUDIO_RX_STEREO_COPP_AUDIOSPHERE" ID="0x10028000" type="RX" NewAdded="true">
+          <Block name="AUDIO_HIGH_THD_RESAMPLER" ID="0x00010719" version="2" type="BOTH">
+            <DATA_VIEW>
+              <INTERFACE I_id="0x00010911" />
+            </DATA_VIEW>
+          </Block>
+          <Block name="AUDIO_SOFT_STEP_VOLUME" ID="0x00010BFE" version="0" type="BOTH">
+            <DATA_VIEW>
+              <INTERFACE I_id="0x00010C29" />
+            </DATA_VIEW>
+          </Block>
+          <Block name="AUDIOSPHERE" ID="0x00010916" version="1" type="RX">
+            <DATA_VIEW>
+              <INTERFACE I_id="0x00010917" />
+              <INTERFACE I_id="0x00010918" />
+              <INTERFACE I_id="0x00010919" />
+              <INTERFACE I_id="0x0001091A" />
+              <INTERFACE I_id="0x0001091B" />
+              <INTERFACE I_id="0x0001091C" />
+              <INTERFACE I_id="0x0001091D" />
+            </DATA_VIEW>
+          </Block>
+          <Block name="AUDIO_IIR" ID="0x00010C02" version="0" type="RX" gain_dependant="Yes">
+            <DATA_VIEW>
+              <INTERFACE I_id="0x00010C03" />
+              <INTERFACE I_id="0x00010C04" />
+              <INTERFACE I_id="0x00010C05" />
+            </DATA_VIEW>
+          </Block>
+          <Block name="AUDIO_MBDRC" ID="0x00010C06" version="0" type="BOTH" gain_dependant="Yes">
+            <DATA_VIEW>
+              <INTERFACE I_id="0x00010C07" />
+              <INTERFACE I_id="0x00010C08" />
+            </DATA_VIEW>
+          </Block>
+          <Block name="AUDIO_RX_CODEC_GAIN" ID="0x00010C37" version="0" type="RX">
+            <DATA_VIEW>
+              <INTERFACE I_id="0x00010C38" />
+            </DATA_VIEW>
+          </Block>
+        </TOPOLOGY>
       </AREA>
       <AREA type="RX" name="AUDIO_POPP_RX">
         <TOPOLOGY name="AUDPROC_OFFLOAD_EFFECTS" ID="0x1000FFFF" type="RX" NewAdded="true" avcs_area="AUDIO">
@@ -101,6 +142,47 @@
         <Block name="AUDIO_RX_CODEC_GAIN" dataView_ID="0x00000024" ID="0x00010C37" type="RX" />
         <Block name="AUDIO_HIGH_THD_RESAMPLER" dataView_ID="0x000000B4" ID="0x00010719" type="BOTH" />
         <Block name="AUDIO_MFC" ID="0x00010912" type="BOTH" />
+      </TOPOLOGY>
+      <TOPOLOGY name="AUDIO_RX_STEREO_COPP_AUDIOSPHERE" ID="0x10028000" type="RX" NewAdded="true">
+        <Block name="AUDIO_HIGH_THD_RESAMPLER" ID="0x00010719" version="2" type="BOTH">
+          <DATA_VIEW>
+            <INTERFACE I_id="0x00010911" />
+          </DATA_VIEW>
+        </Block>
+        <Block name="AUDIOSPHERE" ID="0x00010916" version="1" type="RX">
+          <DATA_VIEW>
+            <INTERFACE I_id="0x00010917" />
+            <INTERFACE I_id="0x00010918" />
+            <INTERFACE I_id="0x00010919" />
+            <INTERFACE I_id="0x0001091A" />
+            <INTERFACE I_id="0x0001091B" />
+            <INTERFACE I_id="0x0001091C" />
+            <INTERFACE I_id="0x0001091D" />
+          </DATA_VIEW>
+        </Block>
+        <Block name="AUDIO_SOFT_STEP_VOLUME" ID="0x00010BFE" version="0" type="BOTH">
+          <DATA_VIEW>
+            <INTERFACE I_id="0x00010C29" />
+          </DATA_VIEW>
+        </Block>
+        <Block name="AUDIO_IIR" ID="0x00010C02" version="0" type="RX">
+          <DATA_VIEW>
+            <INTERFACE I_id="0x00010C03" />
+            <INTERFACE I_id="0x00010C04" />
+            <INTERFACE I_id="0x00010C05" />
+          </DATA_VIEW>
+        </Block>
+        <Block name="AUDIO_MBDRC" ID="0x00010C06" version="0" type="BOTH">
+          <DATA_VIEW>
+            <INTERFACE I_id="0x00010C07" />
+            <INTERFACE I_id="0x00010C08" />
+          </DATA_VIEW>
+        </Block>
+        <Block name="AUDIO_RX_CODEC_GAIN" ID="0x00010C37" version="0" type="RX">
+          <DATA_VIEW>
+            <INTERFACE I_id="0x00010C38" />
+          </DATA_VIEW>
+        </Block>
       </TOPOLOGY>
     </TOPOLOGY_LIST>
     <BLOCK_LIST />
