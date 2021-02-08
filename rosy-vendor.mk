@@ -386,6 +386,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rosy/proprietary/vendor/lib/libOmxWmaDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxWmaDec.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCL.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib/libQSEEComAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQSEEComAPI.so \
+    vendor/xiaomi/rosy/proprietary/vendor/lib/libRSDriver_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/libRSDriver_adreno.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib/libVkLayer_q3dtools.so:$(TARGET_COPY_OUT_VENDOR)/lib/libVkLayer_q3dtools.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib/libacdb-fts.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdb-fts.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib/libacdbloader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbloader.so \
@@ -418,6 +419,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rosy/proprietary/vendor/lib/libadsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadsprpc.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib/libaudcal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudcal.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib/libaudioalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioalsa.so \
+    vendor/xiaomi/rosy/proprietary/vendor/lib/libbccQTI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbccQTI.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib/libc2d30_bltlib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc2d30_bltlib.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib/libchromaflash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromaflash.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib/libchromatix_csidtg_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_csidtg_common.so \
@@ -1229,6 +1231,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rosy/proprietary/vendor/lib/libqtigef.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqtigef.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib/libremosaic_daemon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libremosaic_daemon.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib/librs_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/librs_adreno.so \
+    vendor/xiaomi/rosy/proprietary/vendor/lib/librs_adreno_sha1.so:$(TARGET_COPY_OUT_VENDOR)/lib/librs_adreno_sha1.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib/libscalar.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscalar.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib/libscvePanorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscvePanorama.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib/libscvePanorama_lite.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscvePanorama_lite.so \
@@ -1336,6 +1339,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rosy/proprietary/vendor/lib64/libGPreqcancel_svc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libGPreqcancel_svc.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib64/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOpenCL.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib64/libQSEEComAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libQSEEComAPI.so \
+    vendor/xiaomi/rosy/proprietary/vendor/lib64/libRSDriver_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libRSDriver_adreno.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib64/libSecureUILib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSecureUILib.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib64/libStDrvInt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libStDrvInt.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib64/libVkLayer_q3dtools.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libVkLayer_q3dtools.so \
@@ -1349,6 +1353,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rosy/proprietary/vendor/lib64/libaudcal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudcal.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib64/libaudioalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioalsa.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib64/libbatching.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbatching.so \
+    vendor/xiaomi/rosy/proprietary/vendor/lib64/libbccQTI.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbccQTI.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib64/libbluetooth_audio_session_qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_audio_session_qti.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib64/libbt-hidlclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbt-hidlclient.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib64/libbtnv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbtnv.so \
@@ -1458,6 +1463,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rosy/proprietary/vendor/lib64/librilqmiservices.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librilqmiservices.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib64/librpmb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librpmb.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib64/librs_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librs_adreno.so \
+    vendor/xiaomi/rosy/proprietary/vendor/lib64/librs_adreno_sha1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librs_adreno_sha1.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib64/libscalar.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscalar.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib64/libscvePanorama.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscvePanorama.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib64/libscvePanorama_lite.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscvePanorama_lite.so \
