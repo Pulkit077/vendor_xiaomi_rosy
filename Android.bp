@@ -176,13 +176,6 @@ dex_import {
 }
 
 dex_import {
-	name: "vendor.qti.hardware.fingerprint-V1.0-java",
-	owner: "xiaomi",
-	jars: ["proprietary/vendor/framework/vendor.qti.hardware.fingerprint-V1.0-java.jar"],
-	soc_specific: true,
-}
-
-dex_import {
 	name: "com.fingerprints.extension",
 	owner: "xiaomi",
 	jars: ["proprietary/vendor/framework/com.fingerprints.extension.jar"],
